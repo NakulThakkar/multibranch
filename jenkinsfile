@@ -9,7 +9,7 @@ pipeline {
 		 }
          stage('Example Deploy') {
             when {
-                beforeInput true
+                //beforeInput true
                 branch 'alpha'
             }
             input {
