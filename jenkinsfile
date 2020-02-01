@@ -16,6 +16,8 @@ pipeline {
             input {
                 message "Deploy to production?"
                 id "simple-input"
+                ok "Yes"
+                
             }
             steps {
                 echo 'Deploying'
