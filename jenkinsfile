@@ -4,25 +4,8 @@ pipeline {
    stages {
       stage('1') {
          steps {
-            echo 'Hello World '
-            echo 'Hello Weebhook '
+            echo 'Hello World'
          }
       }
-      /*stage('Example Deploy') {
-            when {
-                beforeInput true
-                branch 'master'
-            }
-            /*input {
-                message "Deploy to production?"
-                id "simple-input"
-                ok "Yes"
-                submitter "thakkarn"
-                
-            }*/
-            steps {
-                echo 'Deploying'
-            }
-        }*/
    }
 }
