@@ -17,9 +17,9 @@ pipeline {
                 id "simple-input"
                 ok "Yes"
                 submitter "thakkarn"
-                parameters {
+                /*parameters {
                     string(name: 'PERSON', defaultValue: 'Mr Nakul', description: 'Who should I say hello to?')
-                }
+                }*/
                 
             }
             steps {
