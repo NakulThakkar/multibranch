@@ -8,7 +8,7 @@ pipeline {
             echo 'Hello Weebhook '
          }
       }
-      stage('Example Deploy') {
+      /*stage('Example Deploy') {
             when {
                 beforeInput true
                 branch 'master'
@@ -23,6 +23,6 @@ pipeline {
             steps {
                 echo 'Deploying'
             }
-        }
+        }*/
    }
 }
