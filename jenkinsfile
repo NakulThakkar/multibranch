@@ -17,6 +17,7 @@ pipeline {
                 message "Deploy to production?"
                 id "simple-input"
                 ok "Yes"
+                submitter "thakkarn"
                 
             }
             steps {
