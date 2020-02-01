@@ -13,13 +13,13 @@ pipeline {
                 beforeInput true
                 branch 'master'
             }
-            input {
+            /*input {
                 message "Deploy to production?"
                 id "simple-input"
                 ok "Yes"
                 submitter "thakkarn"
                 
-            }
+            }*/
             steps {
                 echo 'Deploying'
             }
